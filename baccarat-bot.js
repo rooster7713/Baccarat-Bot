@@ -1,3 +1,3 @@
-$('#js-game-modal').click(function() {
+$(document).on("click",'#js-game-modal',function() {
   alert("here");
 });
